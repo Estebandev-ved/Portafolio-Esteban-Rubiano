@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Esteban Rubiano Vallejo | Portafolio</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script defer src="/js/script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="contenedor-foto">
+    <img src="/img/perfil.jpeg" alt="Foto de Esteban Rubiano Vallejo" class="foto-perfil">
+  </div>
+    <h1>Esteban Rubiano Vallejo</h1>
+    <p class="tagline">
+      "Codificar no es solo dar instrucciones a una máquina, es traducir la lógica del mundo en un lenguaje que evoluciona con nosotros. Somos artesanos del orden en el caos digital."
+    </p>
+    <button id="modo-toggle" class="modo-toggle">
+    <span class="icono-tema">🌙</span> <span class="texto-tema">Modo Oscuro</span>
+  </button>
+
+  </header>
+  
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Estudiante de Ingeniería de Software (3er semestre) en el Tecnológico de Antioquia – TdeA, con formación técnica como Desarrollador de Software (SENA). Interesado en el desarrollo backend, con conocimientos en Spring Boot, Java, Python (básico), HTML, CSS, JavaScript, MySQL y MongoDB. Motivado por seguir aprendiendo y contribuir en proyectos tecnológicos de impacto.</p>
+  
+    </section>
+    <section id="aprendiendo">
+    <h2 data-aos="fade-up">🤖 Lo que estoy aprendiendo ahora</h2>
+    <ul class="lista-aprendiendo" data-aos="fade-up">
+      <li>🧠 Integración de IA con ChatGPT-3.5 Turbo en Python</li>
+      <li>📲 Automatización de ventas por WhatsApp con bots inteligentes</li>
+      <li>📊 Registro automático de pedidos en Excel (fecha, cantidad y total)</li>
+      <li>📧 Envío automático de notificaciones por correo electrónico</li>
+      <li>🔗 Conexión entre Python y JavaScript para tareas combinadas</li>
+    </ul>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades Técnicas</h2>
+    <ul>
+      <li>Java / Spring Boot</li>
+      <li>Python</li>
+      <li>MySQL / MongoDB</li>
+      <li>HTML / CSS / JavaScript</li>
+      <li>Maven</li>
+    </ul>
+    <div class="iconos-habilidades">
+      <i class="devicon-java-plain colored"></i>
+      <i class="devicon-spring-plain colored"></i>
+      <i class="devicon-python-plain colored"></i>
+      <i class="devicon-mongodb-plain colored"></i>
+      <i class="devicon-mysql-plain colored"></i>
+      <i class="devicon-html5-plain colored"></i>
+      <i class="devicon-css3-plain colored"></i>
+      <i class="devicon-javascript-plain colored"></i>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyecto">
+      <h3>Bancobit: Simulador de Transacciones Bancarias</h3>
+      <p>Simulador básico de cajero automático en Java con Spring Boot. Permite realizar depósitos, retiros y consultar saldo.</p>
+      <p><strong>Tecnologías:</strong> Java 17, Spring Boot 3.4.4, Maven</p>
+      <a href="https://github.com/Estebandev-ved/mi_cajero_java_v1.git" target="_blank">Ver repositorio</a>
+    </div>
+    <div class="proyecto">
+      <h3>Mantenimiento-biomedicos</h3>
+      <p>Programa para gestionar mantenimiento de equipos biomédicos. Desarrollado con Python y base de datos MongoDB.</p>
+      <p><strong>Tecnologías:</strong> Python, MySQL, MongoDB</p>
+      <a href="https://github.com/Estebandev-ved/Mantenimiento-biomedicos.git" target="_blank">Ver repositorio</a>
+    </div>
+  </section>
+
+  <a href="/HOJA DE VIDA ACTUALIZADA ESTEBAN RUBIANO VALLEJO (1).pdf" class="btn-cv" target="_blank">📄 Mi CV</a>
+
+  <section id="contacto">
+    <h2>📬 Contáctame</h2>
+    <p>Email: <a href="mailto:grubiano23@gmail.com">grubiano23@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Estebandev-ved" target="_blank">github.com/Estebandev-ved</a></p>
+
+    <form id="form-contacto" class="formulario-contacto" data-aos="fade-up">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="correo" placeholder="Tu correo" required>
+      <textarea name="mensaje" rows="5" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="mensaje-enviado" class="mensaje-oculto">✅ Mensaje enviado con éxito. Pronto será contestado.</div>  
+  </section>
+
+  <footer>
+    <p>© 2025 Esteban Rubiano Vallejo. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
